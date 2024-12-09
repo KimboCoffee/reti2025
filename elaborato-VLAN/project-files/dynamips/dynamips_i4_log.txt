@@ -1,0 +1,23 @@
+Dec 09 15:41:38.674 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 15:41:38.674 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49443.
+Dec 09 15:41:38.676 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 15:41:38.677 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kimbo/Desktop/elaborato-reti/reti2025/elaborato-VLAN/project-files/dynamips 
+Dec 09 15:41:38.677 GENERAL: working_dir=/home/kimbo/Desktop/elaborato-reti/reti2025/elaborato-VLAN/project-files/dynamips
+Dec 09 15:41:38.677 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 09 16:08:59.162 HYPERVISOR: exec_cmd: nio create_udp udp-1a69f0a7-7e82-47fe-8cfa-adf6dbf0f24c 10001 127.0.0.1 10000 
+Dec 09 16:08:59.162 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1a69f0a7-7e82-47fe-8cfa-adf6dbf0f24c 
+Dec 09 16:08:59.169 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1a69f0a7-7e82-47fe-8cfa-adf6dbf0f24c 10 
+Dec 09 16:09:01.715 HYPERVISOR: exec_cmd: nio create_udp udp-565f026e-9ad3-4779-a69e-467f47fcf418 10003 127.0.0.1 10002 
+Dec 09 16:09:01.715 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-565f026e-9ad3-4779-a69e-467f47fcf418 
+Dec 09 16:09:01.728 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-565f026e-9ad3-4779-a69e-467f47fcf418 20 
+Dec 09 16:25:54.013 HYPERVISOR: exec_cmd: nio create_udp udp-5448e4f4-5a49-463e-9449-a916a928af0b 10016 127.0.0.1 10017 
+Dec 09 16:25:54.014 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-5448e4f4-5a49-463e-9449-a916a928af0b 
+Dec 09 16:25:54.031 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-5448e4f4-5a49-463e-9449-a916a928af0b 1 
+Dec 09 16:36:22.106 HYPERVISOR: exec_cmd: nio create_udp udp-c8701cf4-4bc7-4197-8a73-f97ee2acfcc5 10018 127.0.0.1 10019 
+Dec 09 16:36:22.106 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-c8701cf4-4bc7-4197-8a73-f97ee2acfcc5 
+Dec 09 16:36:22.117 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-c8701cf4-4bc7-4197-8a73-f97ee2acfcc5 1 
+Dec 09 17:11:33.218 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-c8701cf4-4bc7-4197-8a73-f97ee2acfcc5 
+Dec 09 17:11:33.243 HYPERVISOR: exec_cmd: nio delete udp-c8701cf4-4bc7-4197-8a73-f97ee2acfcc5 
+Dec 09 17:11:45.043 HYPERVISOR: exec_cmd: nio create_udp udp-cf91edae-1d09-4ce7-aade-fd30512b864e 10018 127.0.0.1 10019 
+Dec 09 17:11:45.043 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-cf91edae-1d09-4ce7-aade-fd30512b864e 
+Dec 09 17:11:45.051 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-cf91edae-1d09-4ce7-aade-fd30512b864e 1 
