@@ -75,9 +75,9 @@
                 "drawing_id": "57c75277-7313-4737-8b41-a1916a28b8dc",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"179\" height=\"42\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">GW: 192.168.10.254/24\nGW: 192.168.20.254/24</text></svg>",
-                "x": 6,
-                "y": -135,
+                "svg": "<svg width=\"199\" height=\"59\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">GW: 192.168.10.254/24\nGW: 192.168.20.254/24\nNATIVE: 192.168.0.254/24</text></svg>",
+                "x": 7,
+                "y": -142,
                 "z": 2
             }
         ],
@@ -386,7 +386,7 @@
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
                 "x": 153,
-                "y": 34,
+                "y": 32,
                 "z": 1
             },
             {
